@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-18T17:16:38 IST" name="Default suite" finished-at="2024-03-18T17:20:43 IST" duration-ms="245084">
+    <groups>
+    </groups>
+    <test started-at="2024-03-18T17:16:38 IST" name="Default test" finished-at="2024-03-18T17:20:43 IST" duration-ms="245084">
+      <class name="test.component.TestPage">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:16:38 IST" name="beforeSuite" finished-at="2024-03-18T17:16:38 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:16:38 IST" name="beforeMethod" finished-at="2024-03-18T17:16:42 IST" duration-ms="3871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testEight()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:16:42 IST" name="testEight" finished-at="2024-03-18T17:16:53 IST" duration-ms="10891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEight -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:16:53 IST" name="afterMethod" finished-at="2024-03-18T17:16:53 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:16:53 IST" name="beforeMethod" finished-at="2024-03-18T17:16:56 IST" duration-ms="2876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testFive()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:16:56 IST" name="testFive" finished-at="2024-03-18T17:17:12 IST" duration-ms="16429" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a href="/site/mobile-cell-phones/iphone/pcmcat305200050000.c?id=pcmcat305200050000" data-track="[context:widgetType=flex,linkContent=...,linkRegion=Shop all Apple,linkPlacement=c1w1]" class="flex-link">iPhone</a> is not clickable at point (615, 906). Other element would receive the click: <div id="survey_window" class="modal fade modal-open in" role="dialog" style="margin-top: 335px; display: block;">...</div>
+  (Session info: chrome=122.0.6261.129)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25979b69779f1a3a7c3c695e86aba1f5, clickElement {id=f.AD4A8A3552957AADDC011494EA427D0C.d.AAD82AD4734971E1F54C0F0C829763AB.e.170}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\SIVAASHA\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53257}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53257/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (25979b69779f1a3a7c3c695e86aba1f5)] -> xpath: //div[@class='widget widget-flex']/div/div[2]/div[1]/div[2]/div/a]
+Session ID: 25979b69779f1a3a7c3c695e86aba1f5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/site/mobile-cell-phones/iphone/pcmcat305200050000.c?id=pcmcat305200050000" data-track="[context:widgetType=flex,linkContent=...,linkRegion=Shop all Apple,linkPlacement=c1w1]" class="flex-link">iPhone</a> is not clickable at point (615, 906). Other element would receive the click: <div id="survey_window" class="modal fade modal-open in" role="dialog" style="margin-top: 335px; display: block;">...</div>
+  (Session info: chrome=122.0.6261.129)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [25979b69779f1a3a7c3c695e86aba1f5, clickElement {id=f.AD4A8A3552957AADDC011494EA427D0C.d.AAD82AD4734971E1F54C0F0C829763AB.e.170}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\SIVAASHA\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53257}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53257/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (25979b69779f1a3a7c3c695e86aba1f5)] -> xpath: //div[@class='widget widget-flex']/div/div[2]/div[1]/div[2]/div/a]
+Session ID: 25979b69779f1a3a7c3c695e86aba1f5
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at util.WebUtils.clickEvent(WebUtils.java:33)
+at page.component.MenuBrand.brandMethod(MenuBrand.java:39)
+at test.component.TestPage.testFive(TestPage.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFive -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:17:12 IST" name="afterMethod" finished-at="2024-03-18T17:17:12 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:17:12 IST" name="beforeMethod" finished-at="2024-03-18T17:17:15 IST" duration-ms="2937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testFour()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:17:15 IST" name="testFour" finished-at="2024-03-18T17:17:39 IST" duration-ms="23518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:17:39 IST" name="afterMethod" finished-at="2024-03-18T17:17:39 IST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:17:39 IST" name="beforeMethod" finished-at="2024-03-18T17:17:42 IST" duration-ms="3098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testOne()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:17:42 IST" name="testOne" finished-at="2024-03-18T17:18:14 IST" duration-ms="31649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:18:14 IST" name="afterMethod" finished-at="2024-03-18T17:18:14 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:18:14 IST" name="beforeMethod" finished-at="2024-03-18T17:18:17 IST" duration-ms="3526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSeven()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:18:17 IST" name="testSeven" finished-at="2024-03-18T17:18:49 IST" duration-ms="31728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSeven -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:18:49 IST" name="afterMethod" finished-at="2024-03-18T17:18:49 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:18:49 IST" name="beforeMethod" finished-at="2024-03-18T17:18:52 IST" duration-ms="3319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSix()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:18:52 IST" name="testSix" finished-at="2024-03-18T17:19:33 IST" duration-ms="40639" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <a aria-hidden="false" class="bottom-left-links " data-lid="hdr_my_best_buy_memberships" href="/site/electronics/best-buy-membership/pcmcat1679668833285.c?id=pcmcat1679668833285" tabindex="0">...</a> is not clickable at point (645, 136). Other element would receive the click: <div id="confirmIt-backdrop" class="confirmIt modal-backdrop in"></div>
+  (Session info: chrome=122.0.6261.129)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6bbb94d219dbdfd7a47538c9cd29d6e, clickElement {id=f.A85BDAB8CC43A1EE809B780D012F3388.d.1D9080258E98AF19B1547F4D244692FC.e.279}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\SIVAASHA\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53856}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53856/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e6bbb94d219dbdfd7a47538c9cd29d6e)] -> xpath: //ul[@class='bottom-nav-left lv']/li[4]/a]
+Session ID: e6bbb94d219dbdfd7a47538c9cd29d6e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a aria-hidden="false" class="bottom-left-links " data-lid="hdr_my_best_buy_memberships" href="/site/electronics/best-buy-membership/pcmcat1679668833285.c?id=pcmcat1679668833285" tabindex="0">...</a> is not clickable at point (645, 136). Other element would receive the click: <div id="confirmIt-backdrop" class="confirmIt modal-backdrop in"></div>
+  (Session info: chrome=122.0.6261.129)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e6bbb94d219dbdfd7a47538c9cd29d6e, clickElement {id=f.A85BDAB8CC43A1EE809B780D012F3388.d.1D9080258E98AF19B1547F4D244692FC.e.279}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.129, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\SIVAASHA\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53856}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53856/devtoo..., se:cdpVersion: 122.0.6261.129, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e6bbb94d219dbdfd7a47538c9cd29d6e)] -> xpath: //ul[@class='bottom-nav-left lv']/li[4]/a]
+Session ID: e6bbb94d219dbdfd7a47538c9cd29d6e
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at util.WebUtils.clickEvent(WebUtils.java:33)
+at page.component.NavigationMenu.menuMethod(NavigationMenu.java:46)
+at test.component.TestPage.testSix(TestPage.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSix -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:19:33 IST" name="afterMethod" finished-at="2024-03-18T17:19:33 IST" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:19:33 IST" name="beforeMethod" finished-at="2024-03-18T17:19:36 IST" duration-ms="2985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testThree()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:19:36 IST" name="testThree" finished-at="2024-03-18T17:20:18 IST" duration-ms="42110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:20:18 IST" name="afterMethod" finished-at="2024-03-18T17:20:18 IST" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:20:18 IST" name="beforeMethod" finished-at="2024-03-18T17:20:21 IST" duration-ms="3109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testTwo()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:20:21 IST" name="testTwo" finished-at="2024-03-18T17:20:43 IST" duration-ms="21738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:20:43 IST" name="afterMethod" finished-at="2024-03-18T17:20:43 IST" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:test.component.TestPage@424e1977]" started-at="2024-03-18T17:20:43 IST" name="afterSuite" finished-at="2024-03-18T17:20:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.component.TestPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
